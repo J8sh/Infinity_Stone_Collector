@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Infinity stones Collector</title>
+  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="http://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+
+   <header>
+        <h2 id ="title_name">Infinity Stone Collector!</h2>
+   </header>
+   <div class="paragraph">
+        <p>You will be given a random number from Thanos!</p>
+        <p>There are four infinity stones below. By clicking on a infinity stone, you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the random number Thanos gives you. You lose the game if your total score goes above the random number.</p>
+        <p>The value of each infinity stone is hidden from you until you click on it.</p>
+        <p>Each time the game starts, the game will change the values of each infinity stone.</p>
+    </div>
+    <div class="start">
+        <div id="random_number"></div>
+    	
+        <div class="result">
+        	Wins:<div id="wins">0</div>
+        	Losses:<div id="losses">0</div>
+        </div>
+    </div>
+    <div class="stones">
+        <img src="assets/images/redgem.png" class="click" id="red">
+        <img src="assets/images/Bluegem.png" class="click" id="blue">
+        <img src="assets/images/Yellowgem.png" class="click" id="yellow">
+        <img src="assets/images/Greengem.png" class="click" id="green">
+   </div>
+   <div class="score">
+        <h5>Your total score is:</h5>
+   </div>
+   <div id="current"></div>
+   <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

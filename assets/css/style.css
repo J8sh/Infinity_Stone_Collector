@@ -1,0 +1,87 @@
+body{
+	background-image: url("../images/Infinity Gaunlet.png");
+	background-repeat: no-repeat;
+}
+
+/** HEADER **/
+header{
+	width:200px;
+	height: 70px;
+	background-color: #cc6600;
+	margin-bottom: 10px;
+}
+
+#title_name{
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 25px;
+}
+
+/** PARAGRAPH **/
+.paragraph{
+	width: 350px;
+	height:370px;
+	background-color: #ffe6b3;
+	margin-bottom: 10px;
+    font-size: 20px;
+}
+
+p{
+	color: green;
+	padding: 5px;
+}
+
+/** RANDOM NUMBER AND WINS AND LOST **/
+.start{
+	height:105px;
+    width:300px;
+    display: inline-block;
+}
+
+#random_number{
+	width:150px;
+	height: 90px;
+	background-color: #00cc66;
+	margin-right: 10px;
+	font-size: 75px;
+	color: purple;
+
+}
+
+.result{
+	width:100px;
+	height: 100px;
+	background-color: cyan;
+	margin-left: 160px;
+	margin-top:-90px;
+	font-size: 25px;
+}
+
+/** THE INFINITY STONES **/
+.click{
+	width:80px;
+	height:80px;
+}
+
+/** CURRENT SCORE **/
+.score{
+	width: 180px;
+	height:30px;
+	background-color: #00b3b3;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+h5{
+	color: white;
+	padding-top: 7px;
+}
+
+#current{
+	width:180px;
+	height:90px;
+	background-color: #00b3b3;
+	font-size: 80px;
+	color: white;
+}
