@@ -43,11 +43,11 @@ var restartGame = function(){
 var winLoss = function (){
 	if (currentScore == randomNum) {
 		wins = wins + 1;
-		restart();
+		restartGame();
 
 	}else if(currentScore > randomNum){
 		losses = losses + 1;
-		restart();
+		restartGame();
 
 	}else{
 		updateScore();
